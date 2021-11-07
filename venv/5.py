@@ -333,7 +333,6 @@ elif int(difficulty) == 2:
     guessCount = 35
 elif int(difficulty) == 3:
     guessCount = 30
-print_board(board)
 print_visualBoard(visualBoard)
 #while there are still guesses left and there is no winner, continue playing the game
 while winner == False:
