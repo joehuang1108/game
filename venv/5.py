@@ -41,6 +41,7 @@ def createRandomShips(board, ship, ship2, ship3):
         direction = 3
     else:
         direction = random.randrange(1, 4)
+#new change
 
     #for at the ends of rows w/ directions
     if rand_row >= 8 and direction == 2:
